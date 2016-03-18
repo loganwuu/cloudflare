@@ -1,0 +1,59 @@
+#white {
+	background-color: #FFF;
+	overflow: hidden;
+	display: table;
+	width: 100%;
+	height: 700px;
+}
+
+
+#green {
+	background-color: #9BCA3E;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 200px;
+	height: 400px;
+	float: left;
+	vertical-align: middle;	
+	display: table-cell;
+}
+
+#orange {
+	background-color: #F68B20;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 500px;
+	min-width: 200px;
+	width: calc(100% - 480px);
+	float: left;
+  vertical-align: middle;	
+  display: table-cell;
+}
+
+#blue {
+	background-color: #2F7BBF;
+	margin: 20px;
+	height: 300px;
+	width: 200px;
+	float: left;
+  	vertical-align: middle;	
+  	display: table-cell;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/*@media (max-width: 681px) {
+	#green {
+		margin-right: 20px;
+		margin-left: 0;
+	}
+	#orange {
+		width: 200px;
+	}
+	#blue {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+}*/
