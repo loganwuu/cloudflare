@@ -8,52 +8,90 @@
 
 
 #green {
-	background-color: #9BCA3E;
-	margin-left: 20px;
+/*	background-color: #9BCA3E;
+*/	margin-left: 20px;
 	margin-top: 20px;
 	width: 200px;
 	height: 400px;
 	float: left;
 	vertical-align: middle;	
 	display: table-cell;
+	padding-top: 40px;
 }
 
 #orange {
-	background-color: #F68B20;
-	margin-top: 20px;
+/*	background-color: #F68B20;
+*/	margin-top: 20px;
 	margin-left: 20px;
 	height: 500px;
 	min-width: 200px;
 	width: calc(100% - 480px);
 	float: left;
-  vertical-align: middle;	
-  display: table-cell;
+  	vertical-align: middle;	
+  	display: table-cell;
 }
 
 #blue {
-	background-color: #2F7BBF;
-	margin: 20px;
+/*	background-color: #2F7BBF;
+*/	margin: 20px;
 	height: 300px;
 	width: 200px;
 	float: left;
   	vertical-align: middle;	
   	display: table-cell;
+  	padding-top: 60px;
+}
+
+
+/* ================================= 
+  Table
+==================================== */
+li {
+	margin: 20px 10px;
+	list-style-type: none;
+	text-align: right;
+
+}
+li a {
+	text-decoration: none;
+	color: #2F7BBF;
+}
+li a:hover {
+	text-decoration: none;
+	color: #33CCFF;
+}
+i:hover {
+    -ms-transform: translate(2px, 0); /* IE 9 */
+    -webkit-transform: translate(2px, 0); /* Safari */
+    transform: translate(2px, 0); /* Standard syntax */
+}
+.active {
+	font-weight: bold;
+}
+.hover {
+	text-decoration: underline;
+}
+
+.table{
+ 	height:300px;            
+}
+tr {
+	width: 100%;
+	height:60px;   
+}
+thead {
+	background-color: #ECEEEF;
+}
+button {
+	float: right;
 }
 
 /* ================================= 
   Media Queries
 ==================================== */
 
-/*@media (max-width: 681px) {
-	#green {
-		margin-right: 20px;
-		margin-left: 0;
-	}
-	#orange {
-		width: 200px;
-	}
+@media (max-width: 679px) {
 	#blue {
-		margin-right: 0;
-		margin-left: 20px;
+		padding-top: 0;
 	}
-}*/
+}
