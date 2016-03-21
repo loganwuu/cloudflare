@@ -5,8 +5,8 @@
 #### By Logan Wu
 
 ## Description
-..* Part 1: HTML and CSS
-..* Part 2: JavaScript
+* Part 1: HTML and CSS
+* Part 2: JavaScript
 
 ### Legal
 

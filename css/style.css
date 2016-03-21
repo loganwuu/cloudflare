@@ -85,6 +85,10 @@ thead {
 button {
 	float: right;
 }
+.stripe {
+	width: 10px;
+	background-color: purple;
+}
 
 /* ================================= 
   Media Queries

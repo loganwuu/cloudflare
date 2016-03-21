@@ -1,107 +1,114 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CloudFlare</title>	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/normalize.css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CloudFlare</title>	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	
-	<!-- Custom Style -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div id="white">
-		<div id="green">
-			<ul>
-			<li><a href="">A link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
-			<li><a href="" class="active">Active state  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
-			<li><a href="">A link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
-			<li><a href="">Another link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
-			<li><a href="">Linky link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
-			<li><a href="">A link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
-			<li><a href=""><span class="hover">Hover link</span>  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
-			</ul>
-		</div>
-		<div id="orange">
-			<div class="table-responsive">
-				<table class="table table-hover table-striped">
-				  <thead>
-				    <tr>
-				      <th></th>
-				      <th>Type</th>
-				      <th>Name</th>
-				      <th>Value</th>
-				      <th>TTL</th>
-				    </tr>
-				  </thead>
-				  <tbody>
-				    <tr>
-				      <th scope="row"><input type="checkbox" value=""></div></th>
-				      <td>A</td>
-				      <td>mail</td>
-				      <td>points to 216.70.64.90</td>
-				      <td>15 mins</td>
-				    </tr>
-					<tr>
-				      <th scope="row"><input type="checkbox" value=""></div></th>
-				      <td>MX</td>
-				      <td>examplewebsiteone.com</td>
-				      <td>mail handled by mail.examplewebsiteone.com</td>
-				      <td>12 hours</td>
-				    </tr>
-					<tr>
-				      <th scope="row"><input type="checkbox" value=""></div></th>
-				      <td>TXT</td>
-				      <td>lorem ipsum</td>
-				      <td>pv=spf1 ip4;123,123,123,123 -all</td>
-				      <td>Automatic</td>
-				    </tr>
-					<tr>
-				      <th scope="row"><input type="checkbox" value=""></div></th>
-				      <td>AAAA</td>
-				      <td>examplewebsiteone.com</td>
-				      <td>points to 2001;0db8:85a3:0000:0000:8a2e...</td>
-				      <td>Automatic</td>
-				    </tr>
-					<tr>
-				      <th scope="row"><input type="checkbox" value=""></div></th>
-				      <td>LOC</td>
-				      <td>lorem ipsum</td>
-				      <td></td>
-				      <td>1 day</td>
-				    </tr>
-					<tr>
-				      <th scope="row"><input type="checkbox" value=""></div></th>
-				      <td>SRV</td>
-				      <td>lorem ipsum</td>
-				      <td></td>
-				      <td>Automatic</td>
-				    </tr>
-				  </tbody>
-				</table>
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+		<!-- Custom Style -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="white">
+			<div id="green">
+				<ul>
+				<li><a href="">A link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
+				<li><a href="" class="active">Active state  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
+				<li><a href="">A link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
+				<li><a href="">Another link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
+				<li><a href="">Linky link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
+				<li><a href="">A link  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
+				<li><a href=""><span class="hover">Hover link</span>  &nbsp; &nbsp; <i class="fa fa-chevron-right"></i></a></li>
+				</ul>
+			</div>
+			<div id="orange">
+				<div class="table-responsive">
+					<table class="table table-hover table-striped">
+					  <thead>
+					    <tr>
+					      <th></th>
+					      <th>Type</th>
+					      <th>Name</th>
+					      <th>Value</th>
+					      <th>TTL</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row"><span class="stripe"></span><input type="checkbox" value=""></th>
+					      <td>A</td>
+					      <td>mail</td>
+					      <td>points to 216.70.64.90</td>
+					      <td>15 mins</td>
+					    </tr>
+						<tr>
+					      <th scope="row"><input type="checkbox" value=""></th>
+					      <td>MX</td>
+					      <td>examplewebsiteone.com</td>
+					      <td>mail handled by mail.examplewebsiteone.com</td>
+					      <td>12 hours</td>
+					    </tr>
+						<tr>
+					      <th scope="row"><input type="checkbox" value=""></th>
+					      <td>TXT</td>
+					      <td>lorem ipsum</td>
+					      <td>pv=spf1 ip4;123,123,123,123 -all</td>
+					      <td>Automatic</td>
+					    </tr>
+						<tr>
+					      <th scope="row"><input type="checkbox" value=""></th>
+					      <td>AAAA</td>
+					      <td>examplewebsiteone.com</td>
+					      <td>points to 2001;0db8:85a3:0000:0000:8a2e...</td>
+					      <td>Automatic</td>
+					    </tr>
+						<tr>
+					      <th scope="row"><input type="checkbox" value=""></th>
+					      <td>LOC</td>
+					      <td>lorem ipsum</td>
+					      <td></td>
+					      <td>1 day</td>
+					    </tr>
+						<tr>
+					      <th scope="row"><input type="checkbox" value=""></th>
+					      <td>SRV</td>
+					      <td>lorem ipsum</td>
+					      <td></td>
+					      <td>Automatic</td>
+					    </tr>
+					  </tbody>
+					</table>
+				</div>
+			</div>
+			<div id="blue">
+				<form>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="sam@example.com" required>
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Password</label>
+				    <input type="password" name="password" class="form-control" id="inputPassword" placeholder="password" required>
+				  </div>
+				  <button type="submit" class="btn btn-primary" id="loginBtn">Log in</button>
+				</form>
 			</div>
 		</div>
-		<div id="blue">
-			<form>
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Email address</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="sam@example.com" required>
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="" required>
-			  </div>
-			  <button type="submit" class="btn btn-primary">Log in</button>
-			</form>
-		</div>
-	</div>
-</body>
+
+		<!-- disable/enable login button -->
+	    <script src="js/loginbtn.js"></script>
+	</body>
 </html>
